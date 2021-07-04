@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name=”viewport” content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>IFEX Worlds</title>
+        <style>
+            html, body, #app {
+                position: absolute;
+                left: 0; top: 0;
+                width: 100%; height: 100%;
+                overflow: hidden;
+                margin: 0;
+            }
+            #app {
+                display: grid;
+                place-items: center;
+                text-align: center;
+            }
+            @media screen and (min-width: 400px) {
+                .root * {
+                    font-size: 25px;
+                }    
+                .root h1 {
+                    font-size: 60px;
+                }
+                .root h3 {
+                    font-size: 25px;
+                }
+            }
+            @media screen and (min-width: 900px) {
+                .root * {
+                    font-size: 25px;
+                }    
+                .root h1 {
+                    font-size: 55px;
+                }
+                .root h3 {
+                    font-size: 25px;
+                }
+            }
+            .root * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .root a {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <div class='root'>
+                <h1>IFEX Worlds</h1>
+                <h3>For InFinite &amp; EXpandable Worlds</h3>
+                <h3>自由的设定发布平台</h3>
+                <p>
+                    <a href="https://wiki.ifworlds.org/">Wiki</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
